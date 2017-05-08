@@ -1,0 +1,425 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1244px) {
+.inwslide, .invvidsect {width: 91%;}
+.slidewrap img[src="img/prewarr.png"] {margin-right: 1.3%;}
+.slidewrap img[src="img/nextarr.png"] {margin-left: 1.3%;}
+.allprog{padding: 40px;}
+}
+
+@media only screen and (max-width : 1221px) {
+.inwslide .slick-slide > *, .invvidsect .slick-slide > * {width: 98%;}
+}
+
+@media only screen and (max-width : 1200px) {
+	.menuline ul > li {padding: 0px 15px;}
+}
+
+
+@media only screen and (max-width : 1170px) {
+.grammodal, .docmofdal { width: 1000px;}
+.gramslider, .docslider {max-width: 900px;}
+.gramslider img, .docslider img{width: 100%;}
+.invvidsect .slick-slide > div {width:90%;height: 268px !important;}
+.allprog {padding: 40px 10px;}
+}
+
+@media only screen and (max-width : 1143px) {
+.organin .menutip {max-width: 470px;}
+    }
+@media only screen and (max-width : 1135px) {
+.posibbl:nth-child(3) > div {display: inline-block;margin: 0px 10px;}
+.whywewr {padding-left: 50px;}
+.namesect {width: 23%;}
+.wwebl {width: 75%;}
+}
+@media only screen and (max-width : 1117px) {
+	.howwork1> div {margin: 0px 15px;}
+}
+@media only screen and (max-width : 1086px) {
+	.slidewrap img[src="img/nextarr.png"],.slidewrap img[src="img/prewarr.png"] {width: 25px;}
+	.callmodal input[type="text"], .corpmod input[type="text"], .progmodal input[type="text"] {width: 240px;}
+	.callmodal input[type="button"], .corpmod input[type="button"], .progmodal input[type="button"] {width: 240px;}
+
+}
+
+@media only screen and (max-width : 1024px) {
+.namesect {width: 24%;}
+.whywewr {padding-left: 18px;}
+.cityes {padding-left: 0px;padding-right: 0px;}
+.progname h3 {padding-right: 10px;}
+.iventhead {width: 38%;padding-left: 12px;}
+.howwork1 > div {margin: 0 10px;}
+.otzprew {margin-right: 50px;}
+.otznext {margin-left: 50px;}
+.pricebl {width: 205px;}
+.programs section img,.allprog section img {width: 99%;height: inherit;}
+.inwfade p {margin-left: 19px;}
+.inwfade h3 {margin-top: 20px; margin-left: 20px;}
+.inwfade input {width: 285px;}
+.grammodal, .docmofdal {width: 800px;}
+.gramslider, .docslider {max-width: 700px;}
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	.programs section:nth-child(2n+1) .progname,.allprog  section:nth-child(2n+1) .progname{padding-left: 15px;}
+	.programs section:nth-child(2n+1) .progname + p,.allprog section:nth-child(2n+1) .progname + p{padding-left: 15px;}
+	.programs input,.allprog input {margin-left: 15px;}
+	.iventhead {width: 41%;}
+	.iventlogos {width: 52%;}
+	.honorbl > div:nth-child(2) {width: 77%;}
+	.honorhead {margin-right: 4%;}
+	.docs > div:nth-child(2) {width: 61%;}
+	.docshead {margin-right: 3%;}
+	.docshead {margin-right: 25px;}
+	.inwfade h3 {font-size: 23px;line-height: 25px;}
+}
+@media only screen and (max-width : 960px) {
+	.menuline ul > li {padding: 0px 10px;}
+	.headform input[type="button"],.headform input[type="text"],
+	.iventformwr input[type="button"],.iventformwr input[type="text"],
+	.needed input[type="text"],.needed input[type="button"],
+	.otzsect + section input[type="text"],.otzsect + section input[type="button"] {width: 270px;}
+	.namesect {width: 26%;}
+	.wwebl {width: 69%;}
+	.pricebl {width: 190px;}
+	.iventlogos {width: 55%;}
+	.organwrap {width: 60%;}
+	.howwork1 > div {margin: 15px 47px;}
+	.honorbl > div:nth-child(2) {width: 71%;}
+	.docs > div:nth-child(2) {width: 55%;}
+	.honorhead {margin-right: 4%;}
+	.honorbl img {width: 165px;}
+	.docs img {width: 165px;}
+	.otznext {margin-left: 30px;}
+	.otzprew {margin-right: 30px;}
+	.otzslidewr {max-width: 700px;}
+	.honorbl div > div, .docs div > div {width: 164px;}
+	.inwfade input {width: 265px;}
+	.invvidsect .slick-slide > div {height: 224px !important;}
+}
+@media only screen and (max-width : 930px) {
+.pos1, .pos2, .pos3, .pos4, .ivent1 {width: 794px;}
+.posslide1, .posslide2, .posslide3, .posslide4, .ivslide1,.postop {padding-left: 43px;padding-right: 43px;}
+.posform input[type="text"],.posform input[type="button"] { width: 240px;}
+
+}
+@media only screen and (max-width : 907px) {
+	.mainhead hr {width: 90px;}
+	h1 {margin: 0 10px;}
+	.qusect p {margin: 10px 10px 0;}
+	.honorbl > div:nth-child(2) {width: 75%;}
+	.docs > div:nth-child(2) {width: 58%;}
+}
+
+@media only screen and (max-width : 860px) {
+	.cityes {width: 540px;}
+	.citylist {width: 430px;}
+	.citylist > div {width: 49.4%;}
+	.citylist div > div { width: 100%;}
+	.grammodal, .docmofdal {width: 620px;}
+	.gramslider, .docslider {max-width: 520px;}
+}
+
+@media only screen and (max-width : 840px) {
+.honorhead {margin-right: 1%;}
+.honorbl > div:nth-child(2) {width: 77%;}
+.honorbl div > div, .docs div > div {width: 150px;}
+.docshead { margin-right: 0px;}
+.docs img {width: 150px;}
+.callmodal input[type="text"], .corpmod input[type="text"], .progmodal input[type="text"] {display: block;margin: 10px auto;}
+.pos1, .pos2, .pos3, .pos4, .ivent1 {width: 749px;}
+.posslide1, .posslide2, .posslide3, .posslide4, .ivslide1, .postop {padding-left: 23px; padding-right: 23px;}
+.mapsectcont > img {margin-left: 15px; margin-top: 20px;}
+.ph,.ml {margin-left: 15px;}
+.mapsectcont p.addr { font-size: 17px; margin-left: 15px;}
+.mapsectcont p { font-size: 16px; margin-top: 5px; margin-left: 15px;}
+.mapsectcont > div { margin-left: 15px;}
+
+}
+
+@media only screen and (max-width : 800px) {
+.menuline ul > li {padding: 0px 5px;}
+.headform input[type="button"], .headform input[type="text"], .iventformwr input[type="button"], .iventformwr input[type="text"], .needed input[type="text"], .needed input[type="button"], .otzsect + section input[type="text"], .otzsect + section input[type="button"] {
+    width: 230px;margin: 0 3px;}
+.qusect hr {width: 70px;}
+.whywewr {padding-left: 55px;}
+.namesect {width: 37%;}
+.wwebl {width: 52%;}
+.wwebl > div {width: 23%;min-width: 137px;margin: 10px;}
+.programs section > div,.allprog section > div{font-size: 14px;line-height: 19px;}
+.progname h3 {font-size: 20px;}
+.pricebl {width: 165px;font-size: 23px;}
+.iventhead h2 {text-align: left;line-height: 38px;font-size: 30px;}
+.organin p {font-size: 13px;line-height: 21px;}
+.organin h3 {font-size: 34px;line-height: 36px;}
+.organin .menutip {max-width: 430px;}
+.docs img {width: 150px;}
+.honorbl div > div, .docs div > div{width: 150px;}
+.honorbl img {width: 154px;}
+.honorbl h2, .docs h2 {line-height: 39px;font-size: 34px;}
+.honorbl > div:nth-child(2) {width: 75%;}
+.docs > div:nth-child(2) {width: 61%;}
+.honorbl hr, .docs hr {margin-top: 10px;}
+.otzprew {margin-right: 10px;}
+.otznext {margin-left: 10px;}
+.otzslidewr {max-width: 700px;}
+.mapsectcont {width: 55%;}
+.mapsectcont>img {margin-left: 15px;}
+.ph,.ml,.mapsectcont p {margin-left: 15px;}
+.docshead {margin-right: 0px;}
+.honorbl img {width: 150px;}
+.inwslide, .invvidsect {width: 90%;}
+
+
+}
+
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+.pricebl {width: 155px;}
+.progname h3 {padding-right: 5px;}
+.slidewrap img[src="img/prewarr.png"] {margin-right: 0.3%;}
+.slidewrap img[src="img/nextarr.png"] {margin-left: 0.3%;}
+.honorbl > div:nth-child(2) {width: 79%;}
+.honorhead {margin-right: 0%;}
+.honorbl h2, .docs h2 {line-height: 35px;font-size: 30px;}
+.otzprew {margin-right: 5px;}
+.otznext {margin-left: 5px;}
+.otzslidewr {max-width: 680px;}
+.docs > div:nth-child(2) {width: 63%;}
+.pos1, .pos2, .pos3, .pos4, .ivent1 { width: 700px;}
+.posslide1, .posslide2, .posslide3, .posslide4, .ivslide1, .postop {padding-left: 13px;padding-right: 13px;}
+.postop p {width: 340px;margin-left: 15px;}
+.posslide1 img, .posslide2 img, .posslide3 img, .posslide4 img, .ivslide1 img{width: 100%;}
+.posslide1 .slick-slide, .posslide2 .slick-slide, .posslide3 .slick-slide, .posslide4 .slick-slide, .ivslide1 .slick-slide {max-width: 120px;}
+.posform input[type="text"], .posform input[type="button"] { display: block;margin: 10px auto;}
+.invvidsect .slick-slide > div {height: 351px !important;}
+
+}
+
+@media only screen and (max-width : 750px) {
+.iventhead {width: 35%;}
+.iventlogos {width: 62%;}
+.posibbl > div {margin: 20px 5px;}
+.posibbl:nth-child(3) > div {display: inline-block;margin: 0px 6px;}
+.programs section:nth-child(2n) .progname,.allprog section:nth-child(2n) .progname{padding-left: 8px;}
+.organin p {font-size: 13px;line-height: 18px;}
+.organin p,.organin h3,.organin input {margin-left: 3%;}
+.organin .menutip {max-width: 405px;}
+.organin p {margin-top: 10px;}
+.organin input {margin-top: 15px;}
+.otzslidewr { max-width: 600px;}
+h1 {font-size: 61px;}
+.honorbl div > div, .docs div > div {width: 140px;}
+.docs img {width: 100%;}
+.honorbl img {width: 100%;}
+.posslide1 .slick-slide, .posslide2 .slick-slide, .posslide3 .slick-slide, .posslide4 .slick-slide, .ivslide1 .slick-slide { max-width: inherit;}
+.pos1, .pos2, .pos3, .pos4, .ivent1 {width: 600px;}
+.postop div {width: 250px;}
+.postop p {width: 300px;}
+.postop div img{width: 100%;}
+
+}
+
+@media only screen and (max-width : 720px) {
+.headform input[type="button"], .headform input[type="text"], .iventformwr input[type="button"], .iventformwr input[type="text"], .needed input[type="text"], .needed input[type="button"], .otzsect + section input[type="text"], .otzsect + section input[type="button"] {
+    width: 210px;margin: 0 3px;}
+    .posinblin {max-width: 313px !important;height: 214px;min-height: 193px !important;}
+    .posibbl > div { margin: 10px 5px;}
+    .posibbl > div {min-height: 300px;max-width: 348px;}
+    .posibbl img {width: 100%;}
+    .programs section:nth-child(2n) .progname,.allprog section:nth-child(2n) .progname {padding-left: 0px;}
+    .pricebl {width: 148px;}
+    .ph, .ml, .mapsectcont p {margin-left: 10px;}
+    .honorbl, .docs {text-align: center;}
+    .honorbl > div:nth-child(2) {width: 73%;text-align: center;}
+.honorbl div > div, .docs div > div {width: 190px;}
+.docs > div:nth-child(2) { width: 56%;}
+.honorbl > div, .docs > div {vertical-align: middle;}
+.headform{position: relative;margin-top: 100px;}
+header{height: inherit !important;}
+.section{background-size: auto 100%;}
+.section:hover {background-size: auto 130%;}
+.menu-collapsed {display: block;}
+.menuline { display: none;}
+}
+
+@media only screen and (max-width : 640px) {
+	video{display: none;}
+.whywewr {padding-left: 30px;}	
+.headform input[type="button"], .headform input[type="text"], .iventformwr input[type="button"], .iventformwr input[type="text"], .needed input[type="text"], .needed input[type="button"], .otzsect + section input[type="text"], .otzsect + section input[type="button"] {
+    width: 190px;margin: 0 3px;}
+    .posinblin {max-width: 300px !important;height: 173px;min-height: 157px !important;padding: 84px 0px 0px 0px;}
+.posibbl > div {max-width: 300px;min-height: inherit;}
+.programs section,.allprog section{text-align: center;}
+.programs section > div,.allprog section > div{width: 80%;  margin: 10px 0;}
+.programs section:nth-child(2n+1) .progname,.allprog section:nth-child(2n+1) .progname{padding-left: 0px;}
+.progname h3 {font-size: 26px;padding-right: 24px;text-align: left;}
+.pricebl { font-size: 28px;width: 221px;}
+.programs section:nth-child(2n+1) .progname + p,.allprog section:nth-child(2n+1) .progname + p {text-align: left;padding-left: 29px;}
+.programs input,.allprog input {margin-left: 0px;}
+.programs section:nth-child(2n) .progname + p,.allprog section:nth-child(2n) .progname + p{text-align: right;}
+.organwrap {width: 70%;}
+.howwork1 > div {margin: 15px 20px;}
+.inwslide, .invvidsect {width: 90%;}
+.otzslidewr {max-width: 500px;}
+.mapsectcont {width: 65%;}
+.qusect h2 {font-size: 41px;}
+.qusect p {font-size: 18px;}
+.qusect hr {display: none;}
+.docs div > div {width: 150px;}
+.cityes {width: 480px;}
+.postop p { width: 90%; margin: 0 auto; display: block;}
+.postop div { width: 280px; margin: 0 auto; display: block !important;}
+.pos1, .pos2, .pos3, .pos4, .ivent1 {width: 500px;}
+.grammodal, .docmofdal {width: 540px;}
+.gramslider, .docslider { max-width: 455px;}
+.docimg > img { width: 100%;}
+}
+
+@media only screen and (max-width : 540px) {
+	.mainhead hr {display: none;}
+.headform input[type="button"], .headform input[type="text"], .iventformwr input[type="button"], .iventformwr input[type="text"], .needed input[type="text"], .needed input[type="button"], .otzsect + section input[type="text"], .otzsect + section input[type="button"] {
+    width: 155px;margin: 0 3px;}
+.whywewr { padding-left: 5px;}
+.namesect h2 {line-height: 30px;font-size: 28px;}
+.namesect {width: 33%;}
+.wwebl {width: 65%;}
+.posibbl > div { min-height: 300px;margin: 10px 0px; max-width: 360px;position: relative;}
+.posibbl:nth-child(3) > div {display: inline-block;margin: 10px 0px;}
+.posinblin {padding: 84px 0px 0px 32px;max-width: 328px !important;height: 216px;min-height: 213px !important;}
+.programs section > div,.allprog section > div{  width: 95%;}
+.iventhead h2 {line-height: 28px;font-size: 23px;}
+.organwrap {width: 90%;}
+.howwork1 > div {margin: 15px 10px;}
+.inwslide, .invvidsect {width: 86%;}
+.otzslidewr {max-width: 400px;}
+.mapsectcont {width: 85%;}
+.docs > div:nth-child(2) {width: 100%;}
+.citylist div {font-size: 14px;line-height: 20px;}
+.citylist { width: 375px;}
+.cityes { width: 400px;}
+.pos1, .pos2, .pos3, .pos4, .ivent1 {width: 490px;}
+.gramslider, .docslider {max-width: 365px;}
+.grammodal, .docmofdal {width: 455px;}
+.invvidsect .slick-slide > div {height: 240px !important;}
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	body{overflow: hidden;}
+	h1 {font-size: 68px;}
+.headform input[type="button"], .headform input[type="text"], .iventformwr input[type="button"], .iventformwr input[type="text"], .needed input[type="text"], .needed input[type="button"], .otzsect + section input[type="text"], .otzsect + section input[type="button"] {
+    width: 305px;margin: 5px 0px;}
+.wwebl > div {margin: 10px 5px;}
+.progname h3 {font-size: 20px;}
+.iventhead {padding-left: 2px;}
+.howwork1 > div {margin: 15px 26px;}
+.organizationbl p {margin: 0 5px;}
+.honorbl > div:nth-child(2) { width: 100%; text-align: center;margin-top: 20px;}
+.callmodal p, .corpmod p, .progmodal p {font-size: 23px;}
+.callmodal h2, .corpmod h2, .progmodal h2 {font-size: 34px;}
+.pos1, .pos2, .pos3, .pos4, .ivent1 {width: 400px;}
+.grammodal, .docmofdal {width: 420px;}
+.gramslider, .docslider {max-width: 335px;}
+.headline {padding: 70px 0 0;}
+.qusect > div {
+    width: 84%;}
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 375px) {
+.headline {text-align: center;}
+.preh1 {font-size: 16px;}
+h1 {font-size: 41px;line-height: 55px;}
+.afth1 {font-size: 15px;}
+.whywewr > div {display: block;}
+.namesect {width: 100%;}
+.namesect h2 {line-height: 39px;font-size: 38px;}
+.wwebl {width: 100%;}
+.posinblin {padding: 84px 0px 0px 0px;}
+.posibbl > div {min-height: inherit;}
+.programs section > div,.allprog section > div{width: 100%;}
+.progname h3 {font-size: 20px;padding-right: 5px;}
+.pricebl {font-size: 22px;width: 146px;}
+.programs section:nth-child(2n+1) .progname + p,.allprog section:nth-child(2n+1) .progname + p{text-align: left;padding-left: 5px;}
+.progname h3 {font-size: 26px;letter-spacing: .5px;line-height: 26px;display: block;text-align: center;padding: 0;}
+.programs section:nth-child(2n) input,.allprog section:nth-child(2n) input{margin-left: 0px;}
+.pricebl {font-size: 28px;display: block;text-align: center;font-weight: 600; color: #31bea8;width: inherit;letter-spacing: .65px;border-left: none;line-height: 24px;}
+.organwrap { width: 100%;}
+.iventwrap > div {display: block;vertical-align: middle;}
+.iventhead {padding-left: 2px;width: 99%;}
+.iventlogos {width: 100%;}
+.iventhead h2 {line-height: 44px;font-size: 38px;}
+.organin input {width: 269px;}
+.organin .menutip {max-width: 280px;}
+.needed h2 {font-size: 31px;}
+.needed p.formh {font-size: 22px;line-height: 24px;}
+.slidewrap img[src="img/nextarr.png"], .slidewrap img[src="img/prewarr.png"] {
+    width: 15px;}
+.slidesect a > p {font-size: 13px;}
+.otzslidewr {max-width: 280px;}
+.otzslidewr h3 {font-size: 22px;}
+.otzslidewr p {font-size: 14px;}
+.otzprew,.otznext {width: 10px;}
+.qusect > div {width: 100%;}
+.qusect input[type="text"],.qusect input[type="button"] {width: 310px;}
+.mapsectcont { width: 100%;}
+.organizationbl hr {width: 45px;}
+.callmodal, .corpmod, .progmodal {padding: 30px 20px 51px;}
+.callmodal p, .corpmod p, .progmodal p {font-size: 20px;}
+.callmodal h2, .corpmod h2, .progmodal h2 {font-size: 28px;}
+.citylist div {font-size: 12px;line-height: 17px;}
+.arcticmodal-container_i2 {padding: 10px;}
+.cityes {width: 290px;}
+.citylist { width: 193px;}
+.citylist div {font-size: 16px;line-height: 22px;}
+.pos1, .pos2, .pos3, .pos4, .ivent1 {width: 300px;}
+.allprog {width: 300px;}
+.allprog input[type="button"] {margin: 26px auto;width: 95%;}
+.gramslider, .docslider {max-width: 193px;}
+.grammodal, .docmofdal {width: 271px;}
+.grammodal h2, .docmofdal h2 { font-size: 27px;}
+.invvidsect .slick-slide > div {
+    height: 165px !important;
+}
+.menu-collapsed { left: 20px;right: inherit;}
+.headline {padding: 15px 0 0;}
+}
+
+@media only screen and (max-width : 320px) {
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
