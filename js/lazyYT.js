@@ -46,29 +46,27 @@
             'padding-bottom': padding_bottom
         }).html(innerHtml.join(''));
         if (width > 640) {
-            thumb_img = 'maxresdefault.html';
+            thumb_img = '/maxresdefault.jpg';
         } else if (width > 480) {
-            thumb_img = 'sddefault.html';
+            thumb_img = '/sddefault.jpg';
         } else if (width > 320) {
-            thumb_img = 'hqdefault.html';
+            thumb_img = '/hqdefault.jpg';
         } else if (width > 120) {
-            thumb_img = 'mqdefault.html';
+            thumb_img = '/mqdefault.jpg';
         } else if (width == 0) {
-            thumb_img = 'hqdefault.html';
+            thumb_img = '/hqdefault.jpg';
         } else {
-            thumb_img = 'default.html';
+            thumb_img = '/default.jpg';
         }
         $thumb = $el.find('.ytp-thumbnail').css({
-            'background-image': ['url(http://img.youtube.com/vi/', id, 'index.html', thumb_img, ')'].join('')
+            'background-image': ['url(http://img.youtube.com/vi/', id, '', thumb_img, ')'].join('')
         }).addClass('lazyYT-image-loaded').on('click', function(e) {
             e.preventDefault();
             if (!$el.hasClass('lazyYT-video-loaded') && $thumb.hasClass('lazyYT-image-loaded')) {
                 $el.html('<iframe src="http://www.youtube.com/embed/' + id + '?autoplay=0&' + youtube_parameters + '" frameborder="0" allowfullscreen></iframe>').addClass('lazyYT-video-loaded');
             }
         });
-        $.getJSON('http://gdata.youtube.com/feeds/api/videos/' + id + '?v=2&alt=json', function(data) {
-            $el.find('#lazyYT-title-' + id).text(data.entry.title.$t);
-        });
+   
     }
     $.fn.lazyYT = function(newSettings) {
         var defaultSettings = {

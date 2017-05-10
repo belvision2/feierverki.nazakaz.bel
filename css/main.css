@@ -25,7 +25,7 @@ header>video{position: absolute;top: 0px;z-index: 0;}
 .headline:after {content: '';width: 100%;display: inline-block;}
 .headline > div {display: inline-block;vertical-align: middle;line-height: 0;font-size: 0;text-align: center;}
 .phonewrap a {font-size: 27px;color: white;text-decoration: none;display: block;line-height: normal;letter-spacing: .6px;}
-.phonewrap input{cursor: pointer;width: 239px;background-color: transparent;height: 38px;border-radius: 2px;border: 1px solid rgb(223, 226, 233);color: white;margin-top: 7px;font-size: 17px;}
+.phonewrap input{cursor: pointer;width: 239px;background-color: transparent;height: 38px;border-radius: 2px;border: 1px solid rgb(223, 226, 233);color: white;margin-top: 7px;font-size: 17px;background-color: #31bea8;}
 
 .menuline {margin: 0 auto;text-align: center;margin-top: 0px; left: 0;right: 0;	top:130px;position: absolute;}
 .menuline ul > li {display: inline-block;text-align: center;padding: 0 29px;border-right: 2px solid white;line-height: 12px;}
