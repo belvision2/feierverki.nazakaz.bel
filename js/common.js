@@ -282,5 +282,5 @@ function actionBtn(param){
 
 ymaps.ready(init);
 function init(){
-    var myMap=new ymaps.Map("map",{center:[55.709576, 37.628316],zoom:16,controls:[]}),
-    myGeoObject=new ymaps.GeoObject();myMap.geoObjects.add(myGeoObject).add(new ymaps.Placemark([55.709576, 37.628316],{balloonContent:'Староданиловский Б., пер., д. 5'},{preset:'islands#dotIcon',iconColor:'#31bea8'}));}
+    var myMap=new ymaps.Map("map",{center:[53.93907156452855,27.467800383488257],zoom:16,controls:[]}),
+    myGeoObject=new ymaps.GeoObject();myMap.geoObjects.add(myGeoObject).add(new ymaps.Placemark([53.93955265895085,27.459140499999997],{balloonContent:'Ржавецкая, д. 3'},{preset:'islands#dotIcon',iconColor:'#31bea8'}));}

@@ -165,7 +165,8 @@ li.active a {background-color: transparent;border: 4px solid #31bea8;}
 .slidesect a::after,.programs a::after {content: '►';direction: ;display: inline-block;margin-left: 10px;font-size: 10px;color: #be9fc1;}
 
 .grams {padding-top: 74px;background-color: #eef0f3;padding-bottom: 65px;}
-.honorbl,.docs {max-width: 1040px;margin: 0 auto;text-align: right;}
+.honorbl {max-width: 530px;margin: 0 auto;text-align: right;}
+.docs {max-width: 1040px;margin: 0 auto;text-align: right;}
 .docs{margin-top: 67px;}
 .honorbl > div,.docs>div {display: inline-block;vertical-align: top;font-size: 0;line-height: 0;}
 .honorbl h2,.docs h2{text-align: left;line-height: 45px;font-size: 39px;letter-spacing: 1.5px;}

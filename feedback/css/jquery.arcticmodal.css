@@ -43,7 +43,7 @@
     width: 80px;
     height: 80px;
     border-radius: 10px;
-    background: #000 url('../img/loading.html') no-repeat 50% 50%;
+    background: #000 url('../img/loading.gif') no-repeat 50% 50%;
 }
 .box-modal {
     position: relative;
