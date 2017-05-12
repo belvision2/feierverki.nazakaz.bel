@@ -169,7 +169,7 @@ $('.invvidsect').slick( {
 
 );
 $('.otzslidewr').slick( {
-    infinite: true, slidesToShow: 1, slidesToScroll: 1, prevArrow: '.otzprew', nextArrow: '.otznext'
+    infinite: true, slidesToShow: 3, slidesToScroll: 1, prevArrow: '.otzprew', nextArrow: '.otznext'
 }
 
 );
