@@ -125,8 +125,8 @@ li.active a {background-color: transparent;border: 4px solid #31bea8;}
 
 #section2 {background-image: url(../img/img-1.jpg); background-position: center; text-align: right;position: relative;}
 #section3 {background-image: url(../img/img-2.jpg); background-position: center; text-align: left;}
-#section4 {background-image: url(../img/img-3.jpg); background-position: center; text-align: right;}
-#section5 {background-image: url(../img/img-4.jpg); background-position: center; text-align: left;}
+#section4 {background-image: url(../img/img-3.jpg); background-position: center; text-align: left;}
+#section5 {background-image: url(../img/img-4.jpg); background-position: center; text-align: right;}
 #section6 {background-image: url(../img/img-5.jpg); background-position: center; text-align: right;}
 #section7 {background-image: url(../img/img-6.jpg); background-position: center; text-align: left;}
 #section8 {background-image: url(../img/img-7.jpg); background-position: center; text-align: right;}
