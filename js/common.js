@@ -97,7 +97,7 @@ $('.docmodal').arcticmodal();
                 else {
                     if($('.menuline').css('position')!='static') {
                         $('.menuline').css( {
-                            'position': 'absolute', 'width': 'inherit', 'background-color': 'transparent', 'padding': '0', 'top': '130px'
+                            'position': 'absolute', 'width': 'inherit', 'background-color': 'transparent', 'padding': '0', 'top': '150px'
                         }
                         );
                     }

@@ -1,4 +1,4 @@
-
+video {width: 100%;}
 body {
   font-family: 'PT Sans', sans-serif;
   font-weight: normal;
@@ -27,7 +27,7 @@ header>video{position: absolute;top: 0px;z-index: 0;}
 .phonewrap a {font-size: 27px;color: white;text-decoration: none;display: block;line-height: normal;letter-spacing: .6px;}
 .phonewrap input{cursor: pointer;width: 239px;background-color: transparent;height: 38px;border-radius: 2px;border: 1px solid rgb(223, 226, 233);color: white;margin-top: 7px;font-size: 17px;background-color: #31bea8;}
 
-.menuline {margin: 0 auto;text-align: center;margin-top: 0px; left: 0;right: 0;	top:130px;position: absolute;}
+.menuline {margin: 0 auto;text-align: center;margin-top: 0px; left: 0;right: 0;	top:150px;position: absolute;}
 .menuline ul > li {display: inline-block;text-align: center;padding: 0 29px;border-right: 2px solid white;line-height: 12px;}
 .menuline ul > li:last-child {border-right: medium none;}
 .menuline a {color: white;text-decoration: none;font-size: 13px;text-transform: uppercase;font-weight: 600;}
@@ -207,9 +207,19 @@ li.active a {background-color: transparent;border: 4px solid #31bea8;}
 .qusect input[type="text"] {width: 328px;height: 51px;text-align: center;border: 1px solid white;border-radius: 2px;background-color: rgb(255,255,255);color: black;text-transform: uppercase;font-size: 16px;border-radius: 2px;border: 1px solid #c9cbd1;margin-bottom: 16px;}
 .qusect input[type="button"] {cursor: pointer;width: 329px;height: 55px;color: white;border: none;padding: 0;background-color: #31bea8;border-radius: 2px;text-transform: uppercase;font-size: 16px;letter-spacing: 1.45px;}
 
+
+.qusect2 {background-image: url(../img/qubg2.jpg);background-size: cover;background-position: top center;text-align: right;padding-top: 73px;padding-bottom: 92px;border-bottom: 2px solid white;}
+.qusect2 > div {width: 70%;display: inline-block;text-align: center;}
+.qusect2 h2 {font-size: 50px;letter-spacing: .9px;}
+.qusect2 p {font-size: 22px;color: #31bea8;font-style: italic;letter-spacing: .5px;display: inline-block;vertical-align: middle;margin: 10px 24px 0;}
+.qusect2 hr {width: 94px;display: inline-block;vertical-align: middle; margin-top: 20px;border: none;border-top: 2px solid #31bea8;}
+.qusect2 form {max-width: 330px;margin: 36px auto 0;}
+.qusect2 input[type="text"] {width: 328px;height: 51px;text-align: center;border: 1px solid white;border-radius: 2px;background-color: rgb(255,255,255);color: black;text-transform: uppercase;font-size: 16px;border-radius: 2px;border: 1px solid #c9cbd1;margin-bottom: 16px;}
+.qusect2 input[type="button"] {cursor: pointer;width: 329px;height: 55px;color: white;border: none;padding: 0;background-color: #31bea8;border-radius: 2px;text-transform: uppercase;font-size: 16px;letter-spacing: 1.45px;}
+
 .mapsect{text-align: right;position: relative;}
 .mapsectcont {position: absolute;top: 0px;right: 0px;width: 50%;text-align: left;height: 100%;background-color: rgba(238, 240, 243, 0.85);vertical-align: middle;}
-.mapsectcont>img{margin-left: 39px;margin-top: 50px;}
+.mapsectcont>img{margin-left: 39px;margin-top: 0px;}
 .ph{font-size: 27px;color: #3e3e3e;margin-top: 6px;text-decoration: none;display: inline-block;margin-left: 48px;letter-spacing: .5px;}
 .ml {font-size: 18px;color: #31bea8;font-style: italic;margin-left: 47px;margin-top: 3px;display: inline-block;letter-spacing: .5px;}
 .mapsectcont p {font-size: 18px;letter-spacing: 0.5px;margin-top: 8px;margin-left: 45px;}
