@@ -282,5 +282,5 @@ function actionBtn(param){
 
 ymaps.ready(init);
 function init(){
-    var myMap=new ymaps.Map("map",{center:[53.93907156452855,27.467800383488257],zoom:16,controls:[]}),
-    myGeoObject=new ymaps.GeoObject();myMap.geoObjects.add(myGeoObject).add(new ymaps.Placemark([53.93955265895085,27.459140499999997],{balloonContent:'Ржавецкая, д. 3'},{preset:'islands#dotIcon',iconColor:'#31bea8'}));}
+    var myMap=new ymaps.Map("map",{center:[53.90040222416694,27.518513820275857],zoom:16,controls:[]}),
+    myGeoObject=new ymaps.GeoObject();myMap.geoObjects.add(myGeoObject).add(new ymaps.Placemark([53.90032619066258,27.513492724999995],{balloonContent:'Харьковская, д.58 офис 7H'},{preset:'islands#dotIcon',iconColor:'#31bea8'}));}
